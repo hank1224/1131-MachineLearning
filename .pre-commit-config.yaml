@@ -3,5 +3,5 @@ repos:
     rev: 0.7.1
     hooks:
       - id: nbstripout
-        # args: [--keep-output]
+        args: [--keep-output]
         # 最終上傳時再保留所有Output，不然每次Commit會炸掉
